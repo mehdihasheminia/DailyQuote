@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="int_UpdateRate_Low">86400000</integer>
+    <integer name="int_UpdateRate_Med">28800000</integer>
+    <integer name="int_UpdateRate_Hi">7200000</integer>
+</resources>
