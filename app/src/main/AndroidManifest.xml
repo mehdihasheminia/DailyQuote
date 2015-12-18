@@ -11,22 +11,25 @@
     android:theme="@style/AppTheme" >
 
     <receiver
-        android:name=".DQAppWidgetProvider"
+        android:name=".WidgetMessageReceiver"
         android:label="@string/app_name" >
         <intent-filter>
             <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
-            <action android:name="com.bornapp.appwidget.action.APPWIDGET_PAUSE"/>
+            <action android:name="com.bornaapp.appwidget.action.APPWIDGET_TIMER_TICK"/>
+            <action android:name="com.bornaapp.appwidget.action.ACTIVITY_OPENED"/>
+            <action android:name="com.bornaapp.appwidget.action.ACTIVITY_CONFIGURED"/>
+            <action android:name="com.bornaapp.appwidget.action.ACTIVITY_CLOSED"/>
         </intent-filter>
 
         <meta-data android:name="android.appwidget.provider"
-            android:resource="@xml/dqwidgetinfo">
+            android:resource="@xml/widgetinfo">
         </meta-data>
     </receiver>
 
-    <activity android:name=".DQAppWidgetConfigure">
+    <activity android:name=".Configure">
     </activity>
 
-    <service android:name=".ClockService" >
+    <service android:name=".UpdateService" >
     </service>
 
 </application>

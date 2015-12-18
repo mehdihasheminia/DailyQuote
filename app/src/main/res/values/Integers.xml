@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="int_UpdateRate_Low">86400000</integer>
-    <integer name="int_UpdateRate_Med">28800000</integer>
-    <integer name="int_UpdateRate_Hi">7200000</integer>
+    <integer name="int_UpdateFactor_Hi">1</integer>    <!-- Update interval in minutes * final value: 120-->
+    <integer name="int_UpdateFactor_Med">2</integer>   <!-- Update interval in minutes * final value: 480-->
+    <integer name="int_UpdateFactor_Low">3</integer>   <!-- Update interval in minutes * final value: 1440-->
 </resources>

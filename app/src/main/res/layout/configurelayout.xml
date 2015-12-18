@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradbkg">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/txtLayout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_emptyLabel"
+                android:textColor="@color/light_font"
+                android:id="@+id/quoteTxtView2"
+                android:padding="6dp"
+                android:textSize="15dp"
+                android:gravity="right"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:singleLine="false" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonsLayout"
+            android:padding="6dp"
+            android:layout_below="@+id/txtLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/PreviousBtn"
+                android:background="@drawable/imgbtn"
+                android:src="@android:drawable/ic_media_previous"
+                android:layout_weight="0.25"
+                android:contentDescription= "@string/txt_PrevBtn" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/copyBtn"
+                android:background="@drawable/imgbtn"
+                android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+                android:layout_weight="0.25"
+                android:contentDescription= "@string/txt_copyBtn" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/shareBtn"
+                android:contentDescription= "@string/txt_copyBtn"
+                android:background="@drawable/imgbtn"
+                android:src="@drawable/abc_ic_menu_share_mtrl_alpha"
+                android:layout_weight="0.25" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/nextBtn"
+                android:background="@drawable/imgbtn"
+                android:src="@android:drawable/ic_media_next"
+                android:layout_weight="0.25"
+                android:contentDescription="@string/txt_nextBtn" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/buttonsLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/spinnerLayout"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="80dp"
+            android:paddingBottom="80dp">
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:entries="@array/spinnerItems"
+                android:layout_gravity="center_vertical"
+                android:drawSelectorOnTop="true"
+                android:layout_weight="90"
+                android:spinnerMode="dialog"
+                android:textSize="15dp"
+                android:gravity="right" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@android:drawable/ic_menu_recent_history"
+                android:layout_gravity="center"
+                android:contentDescription="@string/txt_speedTitleLabel"
+                android:layout_weight="10" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_aboutLabel"
+            android:textSize="12dp"
+            android:textColor="@color/light_font"
+            android:id="@+id/aboutTxtView"
+            android:padding="6dp"
+            android:layout_below="@+id/supportLayout"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/supportLayout"
+            android:layout_below="@+id/spinnerLayout"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/txt_SuggestBtn"
+                android:textSize="12dp"
+                android:textColor="@color/light_font"
+                android:id="@+id/suggestBtn"
+                android:background="@drawable/btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text= "@string/txt_SupportBtn"
+                android:textSize="12dp"
+                android:textColor="@color/light_font"
+                android:id="@+id/supportBtn"
+                android:background="@drawable/btn"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

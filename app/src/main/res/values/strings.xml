@@ -2,6 +2,7 @@
     <string name="app_name">سخن روز</string>
 
     <string name="txt_SupportBtn">"پشتیبانی فنی"</string>
+    <string name="txt_SuggestBtn">پیشنهاد کنید</string>
     <string name="txt_PrevBtn">"قبلی"</string>
     <string name="txt_copyBtn">"کپی"</string>
     <string name="txt_shareBtn">"اشتراک گذاری"</string>
@@ -15,16 +16,28 @@
 
     <string name="txt_pref_name">com.bornapp.dailyquote.appWidget</string>
     <string name="txt_pref_prefix">DQ_</string>
-    <string name="txt_pref_Default">No preferences!</string>
+    <string name="txt_prefKey_Delay">delay</string>
 
     <string name="txt_copy_message">متن کپی شد</string>
     <string name="txt_email_Address">bornaapp@gmail.com</string>
     <string name="txt_email_subject">درخواست پشتیبانی فنی</string>
     <string name="txt_email_message">لطفا مشکل فنی و روش تماس کارشناسان ما با خود را اینجا مشخص کنید</string>
+    <string name="txt_Suggest_Message">سلام، من ویجت حدیث امروز را نصب کردم و به شما هم پیشنهاد میکنم   \n https://cafebazaar.ir/developer/bornaapp/</string>
+    <string name="txt_Developer_URL">https://cafebazaar.ir/developer/bornaapp/</string>
     <string name="txt_email_chooser">ارسال ایمیل</string>
     <string name="txt_email_error">برنامه ای برای ارسال ایمیل نصب نشده است</string>
+    <string name="txt_suggest_chooser">پیشنهاد از طریق</string>
+    <string name="txt_share_chooser">ارسال از طریق</string>
+    <string name="txt_share_error">برنامه ای برای اشتراگ گذاری نصب نشده است</string>
+    <string name="txt_suggest_error">برنامه ای برای اشتراک گذاری نصب نشده است</string>
 
     <string name="txt_widgetStart">برای راه اندازی لمس کنید</string>
+
+    <string-array name="spinnerItems">
+        <item>زمانبندی: هر روز</item>
+        <item>زمانبندی: هر هشت ساعت</item>
+        <item>زمانبندی: هر دو ساعت</item>
+    </string-array>
 
     <string-array name="My_String_Array">
         <item>	شما هرگز قادر به آموختن كم و اندك نخواهید بود. تنها می توان بیشتر و بیشتر یاد گرفت.	      	باکمینستر فولر	</item>
