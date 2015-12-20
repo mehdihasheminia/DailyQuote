@@ -22,7 +22,7 @@
     <string name="txt_email_Address">bornaapp@gmail.com</string>
     <string name="txt_email_subject">درخواست پشتیبانی فنی</string>
     <string name="txt_email_message">لطفا مشکل فنی و روش تماس کارشناسان ما با خود را اینجا مشخص کنید</string>
-    <string name="txt_Suggest_Message">سلام، من ویجت حدیث امروز را نصب کردم و به شما هم پیشنهاد میکنم   \n https://cafebazaar.ir/developer/bornaapp/</string>
+    <string name="txt_Suggest_Message">سلام، من ویجت سخن روز را نصب کردم و به شما هم پیشنهاد میکنم   \n https://cafebazaar.ir/developer/bornaapp/</string>
     <string name="txt_Developer_URL">https://cafebazaar.ir/developer/bornaapp/</string>
     <string name="txt_email_chooser">ارسال ایمیل</string>
     <string name="txt_email_error">برنامه ای برای ارسال ایمیل نصب نشده است</string>
